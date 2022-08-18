@@ -71,6 +71,7 @@ a {
 }
 .section-hero .hero-title {
   font-weight: 900;
+  font-size: 44px;
   line-height: 1.4;
   text-align: center;
   color: var(--primari-white-color);
@@ -107,6 +108,7 @@ a {
 }
 .section-benefits {
   color: var(--title-text-color);
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
 }
@@ -137,7 +139,7 @@ address {
 .studio-foter {
   color: var(--primari-white-color);
 }
-.foter .contact-list {
+.contact-list a{
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
