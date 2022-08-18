@@ -25,6 +25,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.2;
+  font-weight: 700;
 }
 .logo-web {
   color: var(--accent-color);
@@ -34,11 +35,13 @@ a {
 }
 
 /* header nav */
+
 .site-nav .link {
   color: var(--title-text-color);
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  font-weight: 500;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -48,17 +51,24 @@ a {
   color: var(--accent-color);
 }
 /* contact nav */
+
 .contact-list a {
   color: var(--primari-text-color);
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  font-weight: 500;
 }
 .contact-list a:hover,
 .contact-list a:focus {
   color: var(--accent-color);
 }
 /* hero */
+.section-hero {
+  width: 1600px;
+  height: 600px;
+  background: #2f303a;
+}
 .section-hero .hero-title {
   font-weight: 900;
   line-height: 1.4;
@@ -66,7 +76,15 @@ a {
   color: var(--primari-white-color);
   letter-spacing: 0.06em;
 }
-.section-hero .button-hero {
+
+.button-hero {
+  position: absolute;
+  width: 216px;
+  height: 50px;
+  left: 692px;
+  top: 430px;
+
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
@@ -76,8 +94,10 @@ a {
 /* section */
 .section-title {
   color: var(--title-text-color);
-  font-size: 36px;
-  line-height: 1.16;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
 }
 .section-comand {
   text-align: center;
@@ -96,8 +116,12 @@ a {
 }
 
 .paragraph-comand {
-  font-size: 14px;
-  line-height: 1.71;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.84;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primari-text-color);
 }
 
 /* foter */
@@ -114,12 +138,14 @@ address {
   color: var(--primari-white-color);
 }
 .foter .contact-list {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .contact-adress a {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -149,18 +175,21 @@ address {
 /* portfolio */
 /* button portfolio */
 .portfolio {
-  font-family: inherit;
-
+  text-decoration: none;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
 }
+
 .button-portfolio {
+  border: 0;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   color: var(--title-text-color);
   background-color: var(--secondary-bg-color);
-  border-color: transparent;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .button-portfolio:hover,
