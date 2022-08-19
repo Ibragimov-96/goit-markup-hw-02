@@ -70,6 +70,7 @@ a {
   background: #2f303a;
 }
 .section-hero .hero-title {
+  text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -95,9 +96,10 @@ a {
 /* section */
 .section-title {
   color: var(--title-text-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.9;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 16;
+  text-align: center;
   letter-spacing: 0.03em;
 }
 .section-comand {
@@ -139,7 +141,7 @@ address {
 .studio-foter {
   color: var(--primari-white-color);
 }
-.contact-list a{
+.contact-list a {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
